@@ -1,32 +1,21 @@
 # Thamendran Daniel Reddy — Portfolio
 
-This repository contains the professional portfolio site for **Thamendran Daniel Reddy**.
+This repository contains the professional portfolio site for **Thamendran Daniel Reddy**, built with **React, Vite, and Tailwind CSS**.
 
-It showcases delivered work and outcomes across:
-- Software development (C++ / Qt desktop system)
-- Process automation and notification handling
-- Retail engagement analytics and revenue impact
-- Technical onboarding, POS support, and staff enablement
-- Community sports management systems and participation growth
-
-The site is built using **React + Vite + Tailwind CSS**.
+It highlights key outcomes across software development, automation, analytics, customer enablement, and community leadership, with contact and education details surfaced for quick review.
 
 ---
 
 ## 🔍 What this project shows
 
+The live page showcases:
 - Library Management System (C++ & Qt, 2025)
-- Notification & Ticket Handler System (AWS, 2021)
+- Notification & Ticket Handler System (AWS principles, 2021)
 - Retail Engagement & Sales Analytics (ACGL, 2023)
 - POS Support & Training Systems (TechCelerator, 2024)
 - Community Sports Management System (Dimes United FC, 2024–2025)
 
-Each project card includes:
-- Problem it solves
-- Technology used
-- Measured outcome or impact
-
-This is intended for hiring managers, clients, and technical reviewers.
+Each project card calls out the problem, tech, and measurable impact to help reviewers understand relevance quickly.
 
 ---
 
@@ -68,18 +57,16 @@ You can deploy the contents of `dist/` to any static hosting provider (GitHub Pa
 ## 📂 Project structure
 
 ```text
-/src
-  main.jsx            # React entry point
-  portfolio-site.jsx  # Page layout and content for the portfolio
-  index.css           # Tailwind CSS + base styles
-
-index.html            # Root HTML
-package.json          # Project metadata and scripts
-tailwind.config.js    # Tailwind config
-postcss.config.js     # PostCSS config
-vite.config.js        # Vite config
-README.md             # This file
-LICENSE               # License for usage
+index.html           # Vite HTML template
+main.jsx             # React entry point
+portfolio-site.jsx   # Page layout and content for the portfolio
+index.css            # Tailwind CSS + base styles
+package.json         # Project metadata and scripts
+tailwind.config.js   # Tailwind config
+postcss.config.js    # PostCSS config
+vite.config.js       # Vite config
+README.md            # This file
+LICENSE              # License
 ```
 
 ---
